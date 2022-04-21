@@ -1,0 +1,138 @@
+
+.home {
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+  z-index: 10;
+  color: #fff;
+}
+.sec2 h6 {
+  margin-top: 5vh;
+  text-align: center;
+ color: yellow;
+}
+.theHomeImages {
+  height: 100vh;
+  width: 100%;
+}
+.imgDiv {
+  position: relative;
+
+  height: 100vh;
+  width: 100%;
+  background-color: transparent;
+  /* background-image: url(../../assets/images/pic4.jpg); */
+  background-size: cover;
+}
+.textDiv {
+  height: 500px;
+  width: 250px;
+  position: absolute;
+  background: transparent;
+  border: 5px solid yellow;
+  top: 20vh;
+  left: 20%;
+}
+.textDiv h1,
+p {
+  margin-left: 20%;
+  text-align: start;
+  background-color: transparent;
+}
+.textDiv p {
+  margin-top: 10vh;
+  font-size: 20px;
+  /* text-decoration: underline; */
+}
+.textDiv h1 {
+  font-size: 60px;
+  font-weight: bold;
+}
+/* section 2 */
+.sec2 {
+  min-height: 90vh !important;
+  z-index: 10;
+  width: 100%;
+  overflow: hidden;
+  background-image: url(../../assets/images/bg/dots2-dark.png);
+}
+.selections {
+  display: flex;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.form-select {
+  margin-left: 10px;
+}
+.mxwv {
+  width: 235px !important;
+  border: greenyellow 1px solid !important;
+  height: 50vh !important;
+}
+/* button */
+.btx {
+  margin-top: 5vh;
+  width: 40%;
+  color: #fff;
+  margin-left: 5%;
+  background-color: black;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: none;
+  font-weight: bold;
+  border-radius: 5px;
+}
+.btx:hover {
+  background-color: yellow;
+  color: black;
+}
+.autolist {
+  margin-left: 5%;
+  min-height: 90vh;
+  width: 90%;
+  opacity: 0.2px;
+  background-image: url(../../assets/images/bg/dots2-dark.png);
+  justify-content: center;
+}
+@media screen and (max-width: 768px) {
+  .imgDiv {
+    width: 100%;
+    margin-left: 0;
+    height : 90vh ;
+  }
+  .homecarousel{
+    width: 100%;
+    height: 550px !important;
+  }
+  .slideshowimage{
+    height:490px !important;
+  }
+  .textDiv {
+    top: 10vh;
+    left: 20%;
+    text-align: center;
+    height: 400px;
+    width: 150px;
+    padding-left : 15% ;
+  }
+  .textDiv h1 {
+    font-size: 33px;
+   
+  }
+  .sec2 h6 {
+    align-items: center;
+    text-align: center;
+  }
+  .selections {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .form-select {
+    margin: 0;
+    margin-top: 20px;
+  }
+  .btx {
+    margin-left: 30%;
+  }
+}

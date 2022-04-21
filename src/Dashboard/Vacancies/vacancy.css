@@ -1,0 +1,12 @@
+.vacancy{
+    margin-top: 3%;
+    background-image: url('../../assets/images/bg/dots2-dark.png');
+    min-height: 100vh;
+    
+}
+.listlabel{
+    color: greenyellow!important;
+    font-size: large !important;
+
+}
+

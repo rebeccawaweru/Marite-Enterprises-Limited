@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  background-color: #292929;
+  color: white;
+}
+body {
+  position: relative;
+  background-color: #282c34;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+#d-none {
+  display: none !important;
+}
+/* nav bar */
+.logo {
+  height: 50px;
+  background-color: transparent;
+}
+.navBar a {
+  text-decoration: none;
+  color: yellow;
+}
+.navBarx a {
+  text-decoration: none;
+  color: black;
+}
+#marite {
+  font-size: 25px;
+  font-weight: lighter;
+  background-color: rgb(29, 29, 29);
+  margin-left: 7%;
+}
+#ent {
+  color: rgb(177, 177, 74);
+  font-size: 15px;
+  margin-top: -2vh;
+  background-color: transparent;
+  margin-left: 7%;
+}
+.mylogo {
+  background-color: transparent;
+}
+.navBar {
+  background-color: rgb(29, 29, 29);
+}
+.socialmediaLinks {
+  background-color: transparent;
+  margin-left: 5%;
+}
+.navbarLinks img {
+  height: 30px;
+  margin-left: 10px;
+  background-color: rgb(29, 29, 29);
+}
+/* admin nav */
+#basic-nav-dropdown {
+  background-color: rgb(29, 29, 29);
+  color: yellow;
+}
+/* side Nav */
+.bgtransparent {
+  background-color: transparent;
+}
+.leftNavLogs img {
+  height: 40px;
+  background-color: transparent;
+}
+.navLinks {
+  margin-left: 2%;
+  margin-top: 1%;
+  justify-self: center;
+  background-color: rgb(29, 29, 29);
+}
+.bgColoured {
+  background-color: rgb(29, 29, 29);
+}
+.bgTransparent {
+  background-color: transparent;
+}
+/* card */
+.infoCard {
+  min-height: 100px;
+  max-height: 200px;
+  min-width: 250px !important;
+  margin-top: 10px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+.infoCard:hover {
+  height: 250px;
+  box-shadow: 4px 4px 4px yellow;
+}
+.infoCard p {
+  margin: 0;
+  padding: 0;
+  font-weight: bolder;
+  font-size: 50px;
+}

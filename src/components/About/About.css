@@ -1,0 +1,155 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+* .aboutContainer {
+  min-height: 100vh;
+  max-width: 100%;
+  overflow: hidden;
+  color: white;
+  /* margin-left: 7%;
+  margin-right: 5%; */
+  font-family: sans-serif;
+  position: relative;
+  background-image: url(../../assets/images/bg/dots2-dark.png);
+}
+.flyer {
+  height: 400px;
+  width: 400px;
+}
+.firm {
+  color: yellow;
+}
+.square {
+  height: 140px;
+  width: 140px;
+  border: 3px solid yellow;
+  padding-left: 90px;
+  margin-top: 10%;
+  padding-top: 5%;
+}
+.years {
+  margin-top: -20%;
+  margin-left: 28%;
+}
+.state {
+  margin-top: 5% !important;
+  background-image: url(../../assets/images/bg/dots2-dark.png);
+}
+.statecontainer {
+  background-color: #333;
+}
+.stateimage {
+  position: absolute;
+  height: 80px;
+  width: 80px;
+  background-size: contain;
+  border-radius: 90%;
+
+  top: -50px;
+  left: 7%;
+}
+
+.choosetitle {
+  color: yellow;
+  text-align: center;
+}
+.icon:hover {
+  color: white;
+}
+.whychooseus {
+  height: 100px;
+  width: 100px;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10%;
+  background-image: url(../../assets/images/bg/dots2-dark.png) !important;
+}
+.icon {
+  color: yellow;
+  font-size: 25px;
+}
+
+.fontIcons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.why {
+  display: inline;
+  font-size: 18px;
+  margin-right: 20px !important;
+  font-family: sans-serif;
+}
+
+/* responsiveness */
+
+@media screen and (max-width: 539px) {
+  /* mobile devices */
+  .square {
+    height: 100px;
+    width: 100px;
+  }
+  .years {
+    margin-left: 35%;
+    margin-top: -15%;
+  }
+  .flyer {
+    /* height: 40000px;
+    width: 200px; */
+    display: none;
+  }
+  .stateimage {
+    height: 45px;
+    width: 45px;
+    top: -20px;
+  }
+  .fontIcons {
+    display: block !important;
+    margin-top: -10%;
+  }
+  .why {
+    display: block;
+    font-size: 12px;
+  }
+}
+
+@media screen and (min-width: 540px) and (max-width: 768px) {
+  .square {
+    height: 100px;
+    width: 100px;
+  }
+  .years {
+    margin-left: 30% !important;
+    margin-top: -15% !important;
+  }
+  .flyer {
+    height: 300px !important;
+    width: 300px !important;
+  }
+
+  .stateimage {
+    height: 40px;
+    width: 40px;
+    top: -20px;
+  }
+  .whychooseus {
+    margin-left: 5%;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1080px) {
+  .flyer {
+    height: 400px !important;
+    width: 400px !important;
+  }
+  .stateimage {
+    height: 40px;
+    width: 40px;
+    top: -20px;
+  }
+  .years {
+    margin-left: 35% !important;
+    margin-top: -25% !important;
+  }
+}

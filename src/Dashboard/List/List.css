@@ -1,0 +1,10 @@
+.listings{
+    margin-top: 2%;
+    background-image: url('../../assets/images/bg/dots2-dark.png');
+}
+
+.listlabel{
+    color: greenyellow!important;
+    font-size: large !important;
+
+}

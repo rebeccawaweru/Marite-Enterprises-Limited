@@ -1,0 +1,33 @@
+.signUpDiv {
+  background-image: url(../../assets/images/bg/dots2-dark.png);
+}
+.registerBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+}
+.card {
+  min-width: 40%;
+}
+.cardReg {
+  background-color: #1a2226;
+}
+
+.form1 {
+  height: 110vh;
+  width: 40%;
+  background-color: #1a2226;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+  /* mobile devices */
+  .form1 {
+    width: 100%;
+  }
+}

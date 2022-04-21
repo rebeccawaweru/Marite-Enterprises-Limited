@@ -1,0 +1,26 @@
+.requestcontainer {
+  background-image: url(../../assets/images/bg/dots2-dark.png);
+}
+
+.propertydetails {
+  font-size: 15px;
+}
+.propertystatus {
+  background-color: transparent !important;
+  border: transparent !important;
+  color: yellow !important;
+}
+.caroselImgDetails {
+  height: 350px;
+}
+.ml {
+  margin-left: 20px;
+}
+.detailscontainer {
+  min-height: 80vh;
+  width: 100%;
+}
+h5 span strong {
+  margin-right: 5px !important;
+  font-weight: 700 !important;
+}

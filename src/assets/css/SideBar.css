@@ -1,0 +1,15 @@
+
+  .left-side-bar{
+      position: absolute;
+     min-height:90vh;
+     min-width: 20%;
+      background-color: white;
+      justify-content: center;
+  }
+  .btn{
+    padding: 30% 30% 0% 30%;
+  
+    margin-top: 30%;
+  
+    
+  }

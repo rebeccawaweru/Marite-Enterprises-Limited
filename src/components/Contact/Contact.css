@@ -1,0 +1,145 @@
+*{
+   padding : 0px;
+   margin : 0px ;
+}*
+
+.contactUsContainer {
+  min-height: 100vh;
+  max-width: 100%;
+  overflow: hidden;
+  color: white;
+  /* margin-left: 7%;
+  margin-right: 5%; */
+  font-family: sans-serif;
+  position: relative;
+  background-image: url(../../assets/images/bg/dots2-dark.png);
+font-family: sans-serif;
+padding-top: 5% ;
+}
+.row,
+.col-4,
+.col-sm,
+.details {
+  background-color: transparent;
+}
+.help{
+  background-image: url(../../assets/images/bg/dots2-dark.png);
+  margin-left: 15% !important;
+  
+}
+
+.leftcol{
+  margin-left:10% ;
+  
+}
+/* p {
+  margin-top: -50px;
+} */
+
+.headings{
+  display: none;
+}
+.line1 {
+  background-color: yellow;
+  opacity: 2;
+  /* margin-top: 150px; */
+  height: 30px;
+  width: 45px;
+  transform: rotate (90deg) !important;
+  margin-left:10px;
+  /* position: absolute; */
+}
+.details {
+  margin-top: 200px;
+  color: white;
+}
+.gray {
+  color: gray;
+}
+
+.details2 {
+  margin-top: 180px;
+}
+
+
+
+.send {
+ background-color: yellow !important;
+  color : black !important;
+  width: 150px;
+  height: 50px;
+  font-weight: bold;
+  margin-left: 25% !important;
+  border: transparent !important;
+}
+.plus {
+  color: yellow;
+}
+.icons {
+  margin-top: 10px;
+  display: flex;
+  margin-left: 20% !important;
+}
+.contactUsContainer li {
+  list-style: none;
+  display: inline;
+  margin-right: 20px;
+}
+.touch{
+margin-left: -5% !important;
+}
+.touch2{
+  margin-left: 20% !important;
+  }
+.textarea{
+  height: 80px !important;
+  width: 80% !important;
+  color: white !important;
+  border-top: none !important;
+  border-left: none !important;
+  border-right: none !important;
+  border-bottom: 2px solid yellow !important;
+  background-color: #333 !important;
+}
+.contactinput{
+  border-top: none !important;
+  border-left: none !important;
+  border-right: none !important;
+  border-bottom: 2px solid yellow !important;
+  background-color: #333 !important;
+  color: white !important;
+  height: 50px !important;
+  width: 80% !important;
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width:768px) {
+  .leftcol{
+    display: none !important;
+   
+  }
+  
+   .touch {
+    width: 45% !important;
+    margin-left:10% !important;
+   }
+
+   .textarea{
+     margin-top: 15%;
+     margin-left: 5% !important;
+     width: 60% !important;
+   }
+   .headings{
+     display: block !important;
+     color: yellow !important;
+     text-align: center !important;
+   }
+
+   .send{
+    margin-left: 15% !important;
+   }
+}
+
+
+

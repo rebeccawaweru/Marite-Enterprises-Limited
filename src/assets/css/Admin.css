@@ -1,0 +1,15 @@
+.adminContainer{
+    min-height: 100vh;
+    max-width: 100%;
+    overflow: hidden;
+    color: white;
+    margin-left: 7%;
+    margin-right: 5%;
+    font-family: sans-serif;
+    position: relative;
+    background-image: url(../images/bg/dots2-dark.png);
+  }
+  .top {
+    margin-top: 29vh;
+    display: flex;
+  }

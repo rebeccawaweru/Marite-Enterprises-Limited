@@ -1,0 +1,13 @@
+th {
+  color: yellow;
+  border-bottom: none !important;
+}
+td {
+  border-bottom: 1px solid yellow !important;
+}
+#activeUser {
+  color: yellow !important;
+}
+#inactiveUser {
+  color: red !important;
+}

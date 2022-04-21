@@ -1,0 +1,119 @@
+.teamContainer {
+  max-height: 300vh;
+  max-width: 100%;
+  overflow: hidden;
+  color: white;
+  margin-left: 7%;
+  margin-right: 5%;
+  font-family: sans-serif;
+  position: relative;
+  background-image: url(../../assets/images/bg/dots2-dark.png);
+}
+
+.horizontal {
+  width: 90px;
+  max-height: 10px;
+  background-color: yellow;
+  opacity: 1;
+}
+.leftside {
+  margin-left: 2%;
+  background-image: url(../../assets/images/bg/dots2-dark.png);
+}
+.rightside{
+  background-image: url(../../assets/images/bg/dots2-dark.png);
+}
+
+.flotLeft {
+  /* z-index: 200; */
+  float: left;
+  height: 300px;
+  width: 250px;
+  margin-left: 4%;
+  margin-top: 4%;
+  position: relative;
+}
+
+.flotLeft img {
+  z-index: 3;
+  cursor: pointer;
+  position: absolute;
+  height: 300px;
+  width: 250px;
+  border-radius: 5px;
+  box-shadow: 4px 4px 100px black;
+}
+
+.textDivContainer {
+  border-radius: 5px;
+  cursor: pointer;
+  height: 300px;
+  width: 250px;
+  position: absolute;
+  z-index: 4;
+  opacity: 0.8;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  color: black;
+  width: 100%;
+  justify-content: flex-end;
+  text-align: left;
+  background-color: transparent;
+  /* display: none; */
+}
+.textDivContainer:hover {
+  background-color: yellow;
+}
+
+.staffName {
+  background-color: transparent;
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+  display: none;
+  margin-left: 10%;
+}
+
+.staffPosition {
+  color: rgb(66, 66, 66);
+  background-color: transparent;
+  font-size: smaller;
+  display: none;
+  margin-left: 10%;
+}
+#di-block {
+  display: block;
+  
+}
+
+.socialMediaAndLink {
+  display: flex;
+  background-color: transparent;
+  justify-content: center;
+  align-items: center;
+  display: none;
+  margin-left: 10%;
+}
+.socialMediaAndLink a {
+  text-decoration: none;
+  margin-right: 15px;
+}
+.socialMediaAndLink i {
+  background-color: transparent;
+  color: red;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  /* CSS */
+  .topx {
+    min-height: 200vh;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  /* CSS */
+  .topx {
+    min-height: 320vh;
+  }
+}

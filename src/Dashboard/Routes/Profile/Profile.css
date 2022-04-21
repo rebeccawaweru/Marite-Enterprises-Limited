@@ -1,0 +1,88 @@
+*{
+  padding:0px;
+  margin: 0px;
+}*
+.profile{
+    min-height: 100vh;
+    max-width: 100%;
+    background-image: url('./../../../assets/images/bg/dots2-dark.png');
+    position: relative;
+    justify-content: center;
+    margin:auto;
+    align-items: center;
+
+
+}
+
+
+
+.edit {
+  border-top-style: none !important;
+  border-right: none !important;
+  border-left: none !important;
+  border-bottom: green 1px solid !important;
+  background-color: black !important;
+  background: transparent !important;
+font-weight: bold !important;
+
+
+}
+tr.td:hover {
+  background-color: white;
+}
+
+
+
+@media only screen and (max-width:746px) {
+    .editprofilerow {
+       width: 50%;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+
+.table tbody tr:hover td,
+.table tbody tr:hover th {
+  background-color: greenyellow;
+  color: black;
+}
+
+.table tbody tr:hover td, .table tbody tr:hover th {
+    background-color: greenyellow;
+    color: black;
+}
+
+
+/* ===============viewprofile============================= */
+
+.rejectedstyle{
+    background-color : transparent ;
+    color : red;
+    border: none ;
+}
+
+.pendingstyle{
+    background-color : transparent;
+    color : whitesmoke;
+    border: none ;
+}
+
+.approvedstyle{
+    background-color : transparent;
+    color :yellow;
+    border: none ; 
+}
+
+.inputstyle{
+    background-color : transparent !important;
+    color : white !important;
+    border: none !important ;
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 768px) {
+    .viewprofilerow {
+       width: 50%;
+    }
+}
